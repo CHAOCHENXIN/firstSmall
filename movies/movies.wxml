@@ -1,0 +1,15 @@
+<!--pages/movies/movies.wxml-->
+<import src="./row/row" />
+<import src="./row/item/item" />
+<view class='movies'>
+
+  <icon class='icon' size='16' type='success'></icon>
+  <input class="input" placeholder-class="placeholder" placeholder="Hello world" bindfocus="handleFocus"
+   value="{{value}}" bindconfirm="handleBtn" wx:if="{{inputAccord}}"></input>
+  <view wx:if="{{inputAccord}}">
+    <template is="item" wx:for="{{setMovies}}" data="{{...item}}" wx:key="{{index}}"></template>
+  </view>
+
+  <template is="row" wx:for="{{movies}}" data="{{...item}}" wx:key="{{index}}"
+   bindfocus="inputVal" wx:if="{{mainAccord}}"></template>
+</view>

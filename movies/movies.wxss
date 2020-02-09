@@ -1,0 +1,15 @@
+/* pages/movies/movies.wxss */
+@import "./row/row";
+.movies{
+  background: #f2f2f2
+}
+.icon{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.input{
+  width: auto;
+  height: 80rpx;
+  margin-left: 80rpx; 
+}

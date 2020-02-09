@@ -1,0 +1,28 @@
+@import "./stars/stars";
+
+/* 容器左右有22rpx的空隙
+    海报尺寸: 200 * 270 
+    海报底部 20空隙
+    电影名字大小:24
+    文字底部16空隙 */
+
+.item{
+  width: 200rpx;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 22rpx;
+}
+.item .post{
+  width: 200rpx;
+  height: 270rpx;
+  margin-bottom: 20rpx;
+}
+.item .name{
+  width: 200rpx;
+  font-size: 24rpx;
+  margin-bottom: 16rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  height: 28rpx;
+}

@@ -1,0 +1,15 @@
+<import src="./item/item" />
+<template name="row">
+  <view class='row'>
+    <view class='title'>
+      <text>{{type}}</text>
+      <view class='wrap'>
+        <text class='more' data-type="{{type}}" bindtap="goMore" bind-id="{{type}}">更多</text>
+        <icon class='icon' size='16' type='success'></icon>
+      </view>
+    </view>
+    <view class='list'>
+      <template is="item" wx:for="{{movies}}" data="{{...item}}" wx:key="{{index}}"></template>  
+    </view> 
+  </view>
+</template>

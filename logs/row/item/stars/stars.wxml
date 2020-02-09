@@ -1,0 +1,3 @@
+<template name="stars">
+  <view class="stars">stars</view>
+</template>

@@ -1,0 +1,5 @@
+<import src="./stars/stars" />
+<template name="item">
+  <view class="item">item</view>
+  <template is="stars"></template>
+</template>

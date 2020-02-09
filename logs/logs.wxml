@@ -1,0 +1,103 @@
+<!--logs.wxml-->
+<!-- <view class="app">
+  <view class="app-main">
+    <view class="app-main-header">
+      <text>正在热映</text>
+      <text>更多 ></text>
+    </view>
+    <view class="app-main-main">
+      <view class="app-main-main-posters">
+        <image src="./img/1.JPG" class="app-main-main-img"></image>
+        <text class="app-main-main-name">我不是潘金莲</text>
+        <view class="app-main-main-score">
+          <view>XXXXX</view>
+          <text>6.9</text>
+        </view>
+      </view>
+      <view class="app-main-main-posters">
+        <image src="./img/1.JPG" class="app-main-main-img"></image>
+        <text class="app-main-main-name">我不是潘金莲</text>
+        <view class="app-main-main-score">
+          <view>XXXXX</view>
+          <text>6.9</text>
+        </view>
+      </view>
+      <view class="app-main-main-posters">
+        <image src="./img/1.JPG" class="app-main-main-img"></image>
+        <text class="app-main-main-name">我不是潘金莲</text>
+        <view class="app-main-main-score">
+          <view>XXXXX</view>
+          <text>6.9</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="app-main">
+    <view class="app-main-header">
+      <text>正在热映</text>
+      <text>更多 ></text>
+    </view>
+    <view class="app-main-main">
+      <view class="app-main-main-posters">
+        <image src="./img/1.JPG" class="app-main-main-img"></image>
+        <text class="app-main-main-name">我不是潘金莲</text>
+        <view class="app-main-main-score">
+          <view>XXXXX</view>
+          <text>6.9</text>
+        </view>
+      </view>
+      <view class="app-main-main-posters">
+        <image src="./img/1.JPG" class="app-main-main-img"></image>
+        <text class="app-main-main-name">我不是潘金莲</text>
+        <view class="app-main-main-score">
+          <view>XXXXX</view>
+          <text>6.9</text>
+        </view>
+      </view>
+      <view class="app-main-main-posters">
+        <image src="./img/1.JPG" class="app-main-main-img"></image>
+        <text class="app-main-main-name">我不是潘金莲</text>
+        <view class="app-main-main-score">
+          <view>XXXXX</view>
+          <text>6.9</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="app-main">
+    <view class="app-main-header">
+      <text>正在热映</text>
+      <text>更多 ></text>
+    </view>
+    <view class="app-main-main">
+      <view class="app-main-main-posters">
+        <image src="./img/1.JPG" class="app-main-main-img"></image>
+        <text class="app-main-main-name">我不是潘金莲</text>
+        <view class="app-main-main-score">
+          <view>XXXXX</view>
+          <text>6.9</text>
+        </view>
+      </view>
+      <view class="app-main-main-posters">
+        <image src="./img/1.JPG" class="app-main-main-img"></image>
+        <text class="app-main-main-name">我不是潘金莲</text>
+        <view class="app-main-main-score">
+          <view>XXXXX</view>
+          <text>6.9</text>
+        </view>
+      </view>
+      <view class="app-main-main-posters">
+        <image src="./img/1.JPG" class="app-main-main-img"></image>
+        <text class="app-main-main-name">我不是潘金莲</text>
+        <view class="app-main-main-score">
+          <view>XXXXX</view>
+          <text>6.9</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view> -->
+<import src="./row/row" />
+<view class="movies">
+  <template is="row"></template>
+</view>

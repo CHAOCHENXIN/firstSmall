@@ -1,0 +1,5 @@
+<!--pages/movies/more/more.wxml-->
+<import src="../row/item/item" />
+<view class='movies'>
+  <template is="item"  wx:for="{{movies}}" data="{{...item}}" wx:key="{{index}}"></template>
+</view>
